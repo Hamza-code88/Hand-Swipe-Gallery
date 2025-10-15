@@ -1,6 +1,6 @@
 // src/components/GestureIndicator.jsx
 import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 import { Move, ZoomIn, ZoomOut, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const GestureIndicator = ({ gesture }) => {

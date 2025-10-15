@@ -1,6 +1,6 @@
 // src/components/ImageModal.jsx
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from 'lucide-react';
 
 const ImageModal = ({ image, onClose, onNavigate, onZoom, currentIndex, totalImages }) => {

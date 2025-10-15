@@ -1,6 +1,6 @@
 // src/components/CameraView.jsx
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  AnimatePresence } from 'framer-motion';
 import { HandLandmarker, FilesetResolver, DrawingUtils } from '@mediapipe/tasks-vision';
 
 const CameraView = ({ isActive, onGestureDetected }) => {
