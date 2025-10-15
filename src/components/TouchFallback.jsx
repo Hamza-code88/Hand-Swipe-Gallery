@@ -1,6 +1,6 @@
 // src/components/TouchFallback.jsx
 import React, { useState, useRef } from 'react';
-import {  AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import ImageModal from './ImageModal';
 
 const TouchFallback = ({ images, onGestureDetected }) => {

@@ -1,6 +1,6 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
-import {  AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import GestureGallery from './components/GestureGallery';
 import CameraView from './components/CameraView';
 import HelpOverlay from './components/HelpOverlay';
